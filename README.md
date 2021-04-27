@@ -3,7 +3,7 @@ Package for retrieving Pandawa sort animation list
 
 ## Install
 
-* `npm install sort-animation`
+```npm install pandawa-sort-animation```s
 
 
 ## Example
