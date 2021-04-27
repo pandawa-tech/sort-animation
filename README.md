@@ -1,2 +1,14 @@
-# sort-animation
-Package for retrieving sort animation list
+# pandawa-sort-animation
+Package for retrieving Pandawa sort animation list
+
+## Install
+
+* `npm install sort-animation`
+
+
+## Example
+
+[Example](https://github.com/pandawa-tech/bima) from a running project starter template.
+
+## Support
+Please feel free to open an issue or a pull request.
