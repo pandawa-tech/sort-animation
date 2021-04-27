@@ -1,6 +1,6 @@
 {
   "name": "pandawa-sort-animation",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Package for retrieving sort animation list",
   "main": "dist/index.js",
   "scripts": {
