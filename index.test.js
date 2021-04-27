@@ -5,7 +5,7 @@ const {
     getIntroSortAnimations,
     getMergeSortAnimations,
     getQuickSortAnimations
-} = require("sort-animation");
+} = require("pandawa-sort-animation");
 const assert = require('assert').strict;
 
 

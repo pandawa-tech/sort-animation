@@ -1,8 +1,8 @@
 {
   "name": "pandawa-sort-animation",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Package for retrieving sort animation list",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "mocha index.test.js",
