@@ -5,7 +5,7 @@ const {
     getIntroSortAnimations,
     getMergeSortAnimations,
     getQuickSortAnimations
-} = require("./src/index");
+} = require("sort-animation");
 const assert = require('assert').strict;
 
 

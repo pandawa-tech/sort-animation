@@ -1,12 +1,14 @@
 {
   "name": "sort-animation",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Package for retrieving sort animation list",
   "main": "src/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "mocha index.test.js",
-    "test:coverage": "nyc --reporter=html --reporter=text mocha index.test.js"
+    "test:coverage": "nyc --reporter=html --reporter=text mocha index.test.js",
+    "prepublishOnly": "mv src/ ../",
+    "postpublish": "mv ../src ."
   },
   "repository": {
     "type": "git",
@@ -30,5 +32,8 @@
     "mocha": "^8.3.2",
     "nyc": "^15.1.0",
     "request": "^2.88.2"
+  },
+  "dependencies": {
+    "sort-animation": "^1.0.0"
   }
 }
